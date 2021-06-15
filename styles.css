@@ -6,15 +6,10 @@
   text-decoration: none;
 }
 
-body{
-
-}
-
 footer{
   background: #272727;
   position: absolute;
   bottom: 0%;
-  width: 100%;
 }
 
 footer > div{
@@ -37,11 +32,6 @@ footer .mid .left{
 
 footer .mid .left p{
   margin-bottom: 10px;
-}
-
-footer .mid .mid{
-  display: flex;
-  flex-direction: column;
 }
 
 footer .mid .mid h3{
@@ -83,7 +73,6 @@ footer .mid .mid .tv a{
   font-size: 14px;
 }
 
-
 footer .mid .right h3{
   color: white;
   font-size: 14px;
@@ -108,7 +97,7 @@ footer .mid .right a.fa-twitter{
 }
 
 footer .mid .right a.fa-instagram{
-  background: linear-gradient(45deg, #f09433 25%,#dc2743 50%, #285AEB 90%);
+  background: linear-gradient(45deg, #f09433 25%, #dc2743 50%, #285AEB 90%);
 }
 
 footer .bottom{
@@ -128,7 +117,7 @@ footer .bottom{
   }
   footer > .mid{
     flex-direction: column;
-    border-top: 1px solid rgba(220, 220, 220, .2);
+    border-top: 1px solid rgba(220,220,220,0.2);
   }
   hr{
     display: none;
@@ -150,8 +139,8 @@ footer .bottom{
     display: none;
   }
   footer .mid .right{
-    border-top: 1px solid rgba(220, 220, 220, .2);
-    border-bottom: 1px solid rgba(220, 220, 220, .2);;
+    border-top: 1px solid rgba(220,220,220,0.2);
+    border-bottom: 1px solid rgba(220,220,220,0.2);
   }
   footer .bottom{
     text-align: left;
