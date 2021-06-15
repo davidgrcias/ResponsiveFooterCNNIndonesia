@@ -1,0 +1,160 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+  color: #CBCBCB;
+  text-decoration: none;
+}
+
+body{
+
+}
+
+footer{
+  background: #272727;
+  position: absolute;
+  bottom: 0%;
+  width: 100%;
+}
+
+footer > div{
+  padding: 10px 120px;
+}
+
+hr{
+  opacity: 10%;
+}
+
+footer > .mid{
+  display: flex;
+}
+
+footer .mid .left{
+  font-size: 14px;
+  width: 280px;
+  margin-right: 55px;
+}
+
+footer .mid .left p{
+  margin-bottom: 10px;
+}
+
+footer .mid .mid{
+  display: flex;
+  flex-direction: column;
+}
+
+footer .mid .mid h3{
+  color: white;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+footer .mid .mid .genre a{
+  display: block;
+  width: 120px;
+  margin: 5px 0px;
+  font-size: 15px;
+}
+
+footer .mid .mid .genre{
+  margin-bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+}
+
+footer .mid .mid .tv a span{
+  display: block;
+  background: red;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+footer .mid .mid .tv a{
+  border: 1px solid red;
+  width: 80px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+
+
+footer .mid .right h3{
+  color: white;
+  font-size: 14px;
+}
+
+footer .mid .right a{
+  padding: 7px;
+  font-size: 18px;
+  width: 20px;
+  text-align: center;
+  margin: 20px 4px 20px 0px;
+  border-radius: 50%;
+  color: white;
+}
+
+footer .mid .right a.fa-facebook{
+  background: #3B5998;
+}
+
+footer .mid .right a.fa-twitter{
+  background: #55ACEE;
+}
+
+footer .mid .right a.fa-instagram{
+  background: linear-gradient(45deg, #f09433 25%,#dc2743 50%, #285AEB 90%);
+}
+
+footer .bottom{
+  text-align: center;
+  font-size: 13px;
+}
+
+@media (max-width: 1200px){
+  footer > div{
+    padding: 10px 15px;
+  }
+}
+
+@media (max-width: 992px){
+  footer .mid .left{
+    display: none;
+  }
+  footer > .mid{
+    flex-direction: column;
+    border-top: 1px solid rgba(220, 220, 220, .2);
+  }
+  hr{
+    display: none;
+  }
+  footer .mid .mid h3{
+    display: none;
+  }
+  footer .mid .tv{
+    display: none;
+  }
+  footer .mid .mid .genre{
+    width: 100%;
+  }
+  footer .mid .mid .genre a{
+    color: white;
+    width: 50%;
+  }
+  footer .mid .right h3{
+    display: none;
+  }
+  footer .mid .right{
+    border-top: 1px solid rgba(220, 220, 220, .2);
+    border-bottom: 1px solid rgba(220, 220, 220, .2);;
+  }
+  footer .bottom{
+    text-align: left;
+    font-size: 12px;
+  }
+}
